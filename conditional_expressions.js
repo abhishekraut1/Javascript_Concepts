@@ -7,6 +7,7 @@ console.log(a);
 a = Number.parseInt(a)
 console.log(typeof a);
 console.log(a);
+
 let exp = "abhi";
 switch (exp) {
     case "a": console.log("exp = ", "a")

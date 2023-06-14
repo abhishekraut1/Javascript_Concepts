@@ -8,7 +8,7 @@ let ctext = document.getElementById("card-text")
 ctext.style.color="blue"
  
 
-
+ 
 // CSS Selectors
 
 // querySelectorAll

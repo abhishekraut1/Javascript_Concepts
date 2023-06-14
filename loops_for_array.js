@@ -17,9 +17,9 @@ console.log();
 
 // for in
 for(let i in arr)
-    console.log(arr[i]);
+    console.log(i);
 
 // Array.from() --> convert to array
 let str="Abhi";
-let a=Array.from(str);
+let a=Array.from(str); // it becomes array of string
 console.log(a , typeof a,typeof a[0]);

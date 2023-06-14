@@ -7,6 +7,7 @@ console.log(sp1.outerHTML);
 // sp1.outerHTML="<i>i am italic</i>"
 
 //.data
+console.log("(2)");
 console.log(document.body.childNodes[0].data);
 console.log(document.body.childNodes[0].nodeValue);
 

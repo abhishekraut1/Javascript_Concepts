@@ -3,6 +3,7 @@ b1.onclick=function(){
     alert("clicked on button 1")
 }
 
+
 //addEventListener()
 let b2 = document.getElementById("btn2")
 
@@ -21,4 +22,4 @@ b2.addEventListener("click",handler1)
 b2.addEventListener("click",handler2)
 
 // removeEventListener()
-b2.removeEventListener("click",handler2) // It will remove handler2 from click event
+// b2.removeEventListener("click",handler2) // It will remove handler2 from click event

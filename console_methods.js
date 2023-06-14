@@ -6,7 +6,7 @@ console.info("info")
 console.warn("This is warning")
 
 let obj={a:90,b:88,c:23}
-console.table(obj)
+console.table(obj) // prints tabular representation of key value pairs
 
 console.time("for_loop");
 for(let i=0;i<10;i++){

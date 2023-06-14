@@ -17,7 +17,7 @@ console.log(i,"\n")
 const item = {
     kushal:90,
     pawan:true,
-    gopal:"Jalgaon"
+    gopal:"Dhanora"
 }
 
 console.log(item.kushal)

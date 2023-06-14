@@ -12,7 +12,7 @@ console.log(a);
 console.log();
 
 // array.filter() --> method
-// it return the value variable if satisfies the condition
+// it return the 'value' variable if satisfies the condition
 let b=arr.filter((value,index,array)=>{
     return value>40;
 })
@@ -29,6 +29,7 @@ let c=arr2.reduce((prevValue,currValue,currIndex,array)=>{
 // prevValue = previously returned value
 // currValue = current value and starts from index 1
 console.log(c);
+console.log();
 
 c=arr2.reduce((prevValue,currValue,currIndex,array)=>{
     return prevValue + currValue;

@@ -4,16 +4,16 @@ let elem = document.getElementById("id1")
 console.log(elem.getAttribute("class"));
 console.log(elem.getAttribute("id"));
 
-// hasAttribute
-console.log(elem.hasAttribute("class"));
-console.log(elem.hasAttribute("name"));
-
 // setAttribute
 // elem.setAttribute("hidden","true")
 // elem.setAttribute("class","class2 class3")
 
+// hasAttribute
+console.log(elem.hasAttribute("class"));
+console.log(elem.hasAttribute("name"));
+
 // removeAttribute
-// elem.removeAttribute("class")
+// elem.removeAttribute("class")y
 
 // attributes
 console.log(elem.attributes);   // --> gives all attributes of the element

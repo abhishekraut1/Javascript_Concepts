@@ -1,0 +1,10 @@
+ div{
+    font-size: large;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    font-family:cursive;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+ }

@@ -21,4 +21,6 @@ add2(a, b);
 console.log(" ");
 console.log(mul(a, b));
 mul2(a, b);
+console.log(Math.ceil(5 / 3));
+console.log(Math.floor(5 / 3));
 console.log(Math.round(5 / 3));
