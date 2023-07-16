@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.container div{
+    margin: 0 auto;
+    font-size: 75px;
+}
