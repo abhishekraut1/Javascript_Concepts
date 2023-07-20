@@ -18,4 +18,4 @@ console.log(a.email);
 p.__proto__ = {
     fun2 : ()=>{console.log("fun2")}
 }
-console.log(a.fun());
+console.log(a.fun2());
