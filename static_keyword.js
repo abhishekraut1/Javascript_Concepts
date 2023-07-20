@@ -1,5 +1,5 @@
 class Employee{
-    constructor(name){
+    constructor(name){ 
         this.name = Employee.captalize(name);
         console.log("Name:",this.name);
     }
