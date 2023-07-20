@@ -11,4 +11,3 @@ class Employee{
 
 let emp = new Employee("abhi");
 let emp2 = new Employee(Employee.captalize("kushal"));
-
