@@ -7,7 +7,8 @@ let [f,,g,...rest] = arr;
 console.log(f,g,rest);
 
 // destructuring Object
-let { h,i} = {h:40,i:50};
+let o = {h:40,i:50};
+let { h,i} = o;
 console.log(h,i);
 
 let { j,...rest2} = {j:{b:90,q:100},k:50,l:70};
@@ -31,5 +32,5 @@ let info = {
     email: 'mail@email.com'
 }
 let v = {...info,name:'Ram'};
-// let v = {name:'Ram',...info}; --> The values will not change by this.
+// let v = {name:'Ram',...info}; --> The values will not change by in this syntax.
 console.log(v);
