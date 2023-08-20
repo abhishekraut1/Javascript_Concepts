@@ -27,11 +27,11 @@ let c=arr2.reduce((prevValue,currValue,currIndex,array)=>{
     return prevValue - currValue;
 })
 // prevValue = previously returned value
-// currValue = current value and starts from index 1
+// currValue = current value and starts from index 1 if no initial value is given
 console.log(c);
 console.log();
 
-c=arr2.reduce((prevValue,currValue,currIndex,array)=>{
-    return prevValue + currValue;
-})
+// If initial value is given
+let initialValue = 10;
+c=arr2.reduce((prevValue,currValue,currIndex,array)=> prevValue + currValue , initialValue);
 console.log(c);
